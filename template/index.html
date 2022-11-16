@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notation website</title>
-    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css.map">
     <link rel="stylesheet" href="bootstrap/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    
-    <!--font awesome-->
+    <link rel="stylesheet" href="bootstrap/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    -->
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
@@ -22,7 +26,7 @@
          <a href="#QuiSommeNous">Qui nous sommes </a>
          <a href="#categories">categories</a>
          <a href="#review">blogs</a>
-         <a href="#footer">contactez-nous</a>
+         <a href="contactus.html.html">contactez-nous</a>
         </nav>
         <div class="icons">
             <div class="fas fa-bars" id="menu-btn"></div>
@@ -38,7 +42,7 @@
     <input type="email"placeholder="your email" class="box">
     <input type="password"placeholder="your password" class="box">
     <p>forget your password <a href="#">click here</a></p>
-    <p>don't have an account <a href="#">creat now</a></p>
+    <p>don't have an account <a href="formulaire.html">creat now</a></p>
     <input type="submit"value="login now" class="btn">
 </form>
 </header>
@@ -78,17 +82,19 @@
         </div>
 </section>
 <section class="categories swiper1" id="categories">
+  
     <h1>categories</h1>
+    
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"> <img src="image/bus.png" alt=""></div>
-          <div class="swiper-slide"> <img src="image/poster.png" alt=""></div>
-          <div class="swiper-slide">  <img src="image/AIRPORT.png" alt=""></div>
-          <div class="swiper-slide"> <img src="image/taxi.png" alt=""></div>
-          <div class="swiper-slide"> <img src="image/food.png" alt=""></div>
-          <div class="swiper-slide">  <img src="image/more.png" alt=""></div>
-          <div class="swiper-slide">  <img src="image/checkin.png" alt=""></div>
-          <div class="swiper-slide"> <img src="image/airport2.png" alt=""></div>
+          <div class="swiper-slide"><a href="bus.html"><img src="image/bus.png" alt="" ></div></a>
+          <div class="swiper-slide"><img src="image/poster.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/AIRPORT.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/taxi.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/food.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/more.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/checkin.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/airport2.png" alt=""></div>
           <div class="swiper-slide"><img src="image/lounges.png" alt=""></div>
           <div class="swiper-slide"><img src="image/passeport.png" alt=""></div>
           <div class="swiper-slide"> <img src="image/airport2.png" alt=""></div>
@@ -103,7 +109,7 @@
 <section class="review swiper" id="review">
     <h1>les avis</h1>
     <div class="review-slider">
-        <div class="wrapper swiper-wrapper">
+        <div class="wrapper swiper-wrapper ">
             <div class="box swiper-slide">
                 <img id="person" src="image/pers3.jpg" alt="">
                 <h3>salim rolse</h3>
@@ -283,22 +289,22 @@
 </section>
 <section class="destination" id="destination">
     <h1>Top destination for your next destination</h1>
-<div class="container-destination">
-<div class="box-destination">
-        <img src="image/france.jpg" alt="">
-        <h1>france</h1>
+<div class="container-destination container-fluid">
+<div class="box-destination container col-lg-3 col-sm-6 col-md-6">
+        <img src="image/france.jpg" class="img-thumbnail img-responsive mx-auto" alt="">
+        <h1 classe="text-center ">france</h1>
     </div>
-    <div class="box-destination">
-        <img src="image/mexique.jpeg" alt="">
-        <h1>Mexique</h1>
+    <div class="box-destination col-lg-3 col-sm-6 col-md-6 ">
+        <img src="image/mexique.jpeg"  class="img-thumbnail img-responsive mx-auto" alt="">
+        <h1 classe="text-center ">Mexique</h1>
     </div>
-    <div class="box-destination">
-        <img src="image/almagne.png" alt="">
-        <h1>almagne</h1>
+    <div class="box-destination col-lg-3 col-sm-6 col-md-6">
+        <img src="image/almagne.png"class="img-thumbnail img-responsive mx-auto" alt="">
+        <h1 classe="text-center ">almagne</h1>
     </div>
-    <div class="box-destination">
-        <img src="image/hawaii.jpg" alt="">
-        <h1>hawaii</h1>
+    <div class="box-destination col-lg-3 col-sm-6 col-md-6">
+        <img src="image/hawaii.jpg"class="img-thumbnail img-responsive mx-auto" alt="">
+        <h1 classe="text-center ">hawaii</h1>
     </div>
 </div>
 </section>
@@ -307,8 +313,7 @@
     
     <div
       style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-      class="swiper nous"
-    >
+      class="swiper nous">
       <div
         class="parallax-bg"
         style="
@@ -321,18 +326,19 @@
           <div class="title" data-swiper-parallax="-300">Nous sommes </div>
           <div class="subtitle" data-swiper-parallax="-200">share</div>
           <div class="text" data-swiper-parallax="-100">
-            <p>
-                Share is a review platform open to everyone.
-                Share your experiences to help others
-                to make better decisions and enable.
-            </p>
+            <video width="100%" height="350" controls>
+              <source src="video.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="title" data-swiper-parallax="-300">creation date</div>
           <div class="subtitle" data-swiper-parallax="-200">the goal</div>
           <div class="text" data-swiper-parallax="-100">
-            <p>
+            <p> 
+                Share is a review platform open to everyone.
+                Share your experiences to help others
+                to make better decisions and enable.
                 Share was founded in 2022 with the aim of becoming a universal 
                 symbol of trust. We bring businesses closer to consumers
                  to promote trust and drive collaboration. Our online
@@ -362,6 +368,7 @@
       <div class="swiper2-pagination"></div>
     </div>
 </section>
+
 <section class="QuiNousFaisConfiance">
     <div class="container-confiance">
 <div class="box-confiance">
@@ -377,6 +384,7 @@
     <img src="image/googl.png" alt="">
 </div>
 </div>
+
 </section>
 
 <section class="footer" id="footer">
@@ -446,9 +454,8 @@
 <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
 
- <script src="script.js"></script>
- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="js/script.js"></script>
+ <script src="js/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -484,7 +491,6 @@
    });
  </script>  
  <!-- Swiper JS qui somme nous-->
- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
  <!-- Initialize Swiper -->
  <script>

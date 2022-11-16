@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notation website</title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="image/logo web.png" class="logo "alt="">
+        <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#QuiSommeNous">Qui nous sommes </a>
+         <a href="#categories">categories</a>
+         <a href="#review">blogs</a>
+         <a href="#footer">contactez-nous</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search"id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="post"class="search-form">
+        <input type="search"id="search-box"placeholder="search here...">
+        <label for="search-box"class="fas fa-search"></label>
+    </form>
+<form action="post" class="login-form">
+    <h3>login now</h3>
+    <input type="email"placeholder="your email" class="box">
+    <input type="password"placeholder="your password" class="box">
+    <p>forget your password <a href="#">click here</a></p>
+    <p>don't have an account <a href="#">creat now</a></p>
+    <input type="submit"value="login now" class="btn">
+</form>
+</header>
+
+<section class="home" id="home">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/bannere5.jpg"style="width:100%">
+          <div class="content">
+            <h3>Un avis, une question, un retour ?
+                Partagez votre expérience client sur  <span>Share</span></h3>
+        <input type="search"class="searchban" placeholder="Rechercher un magazin,une entreprise...">
+        <div class="fas fa-search" id="rechicon"></div> 
+    </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/bannier4.jpg"style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/banniere.jpg" style="width:100%">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+</section>
+<section class="categories swiper1" id="categories">
+    <h1>categories</h1>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> <img src="image/bus.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/poster.png" alt=""></div>
+          <div class="swiper-slide">  <img src="image/AIRPORT.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/taxi.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/food.png" alt=""></div>
+          <div class="swiper-slide">  <img src="image/more.png" alt=""></div>
+          <div class="swiper-slide">  <img src="image/checkin.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/airport2.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/lounges.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/passeport.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/airport2.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/lounges.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/passeport.png" alt=""></div>
+          <div class="swiper-slide"> <img src="image/airport2.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/lounges.png" alt=""></div>
+          <div class="swiper-slide"><img src="image/passeport.png" alt=""></div>
+        </div> </div>
+        <div class="swiper1-pagination"></div>
+</section>
+<section class="review swiper" id="review">
+    <h1>les avis</h1>
+    <div class="review-slider">
+        <div class="wrapper swiper-wrapper">
+            <div class="box swiper-slide">
+                <img id="person" src="image/pers3.jpg" alt="">
+                <h3>salim rolse</h3>
+                <h2>wrote review</h2>
+                <img src="image/img.jpg" alt="">
+                <h3>Rolling Out</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Really good service. I can see the owner
+                     really tries to make his food 
+                    the best. The bread is also 
+                    homemade with his sandwiches. </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers2.jpg" alt="">
+                <h3>john deo</h3>
+                <h2>wrote review</h2>
+                <img src="image/avis1.jpg" alt="">
+                <h3>Toto’s Pizzeria & Restaurant</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Toto's est l'une des meilleures pizzas de la région de 
+                    la baie IMO. Je ne suis pas surpris que ce restaurant soit
+                     aussi populaire qu'il l'est. </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers1.png" alt="">
+                <h3>jan.qan</h3>
+                <h2>wrote review</h2>
+                <img src="image/avis2.jpg" alt="">
+                <h3>Stranger Things The Experience </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Si vous êtes un fan de Stranger Things, 
+                    je vous recommande 
+                    fortement de consulter cet événement. 
+                    C'est vraiment </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers4.jpg" alt="">
+                <h3>imane qandyl</h3>
+                <h2>wrote review</h2>
+                <img src="image/jumia.jpg" alt="">
+                <h3>jumia</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>J'ai passé une commande en février 2021,
+                     je n'ai reçu que 2 éléments sur les 5
+                    . Je relance sans arrêt et l'on me dit 
+                    que cela va bientôt arriver. Je n'avais. </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers5.jpg" alt="">
+                <h3>solyman med</h3>
+                <h2>wrote review</h2>
+                <img src="image/hotel.jpg" alt="">
+                <h3>Hotel</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></div>
+                <p> Service client injoignable par téléphone Reception longue
+                     Emballage 
+                    colis bâclé ( les calques de ma commandes étaient endommagés )
+                     Aucun explicatif pour mon. </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers6.jpg" alt="">
+                <h3>kamal kadimi</h3>
+                <h2>wrote review</h2>
+                <img src="image/shein.jpg" alt="">
+                <h3>Shein</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Tout reçu en bonne état,
+                     neuf pas d'arnaque.. Envoie dans les temps, 5/5 </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers7.jpg" alt="">
+                <h3>john deo</h3>
+                <h2>fatima bouj</h2>
+                <img src="image//sortie.jpeg" alt="">
+                <h3>voyage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></div>
+                <p>Sortie en mer très sympathique, 
+                    avec de très beau paysage  </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers8.jpg" alt="">
+                <h3>salma de</h3>
+                <h2>wrote review</h2>
+                <img src="image/aliexpresse.jpg" alt="">
+                <h3>Rolling Out</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Colis non reçu dans les temps, cette entreprise
+                     fait appel à FEDEX comme transporteur 
+                     qui ne respecte pas les délais de livraison. </p>
+                    
+            </div><div class="box swiper-slide">
+                <img id="person" src="image/pers9.jpg" alt="">
+                <h3>jad jad</h3>
+                <h2>wrote review</h2>
+                <img src="image/img.jpg" alt="">
+                <h3>Rolling Out</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></div>
+                <p>Really good service. I can see the owner
+                     really tries to make his food 
+                    the best. The bread is also 
+                    homemade with his sandwiches. </p>
+                    
+            </div>
+        </div>
+       
+  </div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</section>
+<section class="marrakech" id="marrakech">
+    <h1>ways to tour marrakech</h1>
+    <h3>Book these experiences for a close-up look at Marrakech</h3>
+    <div class="container-kech">
+    <div class="box-kech">
+        <img src="image/Palooza.jpg" alt="">
+        <h3>paloozaland parck du jeux meuileur experienxe</h3>
+    </div>
+    <div class="box-kech"> 
+        <img src="image/squad.jpg" alt="">
+        <h3>Marrakech Palmeraie Quad Bike Desert Adventure</h3>
+    </div>
+    <div class="box-kech"> 
+        <img src="image/ballon.jpg" alt="">
+        <h3>Atlas Mountains Hot Air Balloon Ride from Marrakech </h3>
+    </div>
+    <div class="box-kech">  
+       <img src="image/jamaelfna.jpg" alt="">
+        <h3>a place Jamaa Alfna est une célèbre place publique au sud-ouest de la médina</h3>
+    </div>
+</div>
+</section>
+<section class="destination" id="destination">
+    <h1>Top destination for your next destination</h1>
+<div class="container-destination">
+<div class="box-destination">
+        <img src="image/france.jpg" alt="">
+        <h1>france</h1>
+    </div>
+    <div class="box-destination">
+        <img src="image/mexique.jpeg" alt="">
+        <h1>Mexique</h1>
+    </div>
+    <div class="box-destination">
+        <img src="image/almagne.png" alt="">
+        <h1>almagne</h1>
+    </div>
+    <div class="box-destination">
+        <img src="image/hawaii.jpg" alt="">
+        <h1>hawaii</h1>
+    </div>
+</div>
+</section>
+<section class="QuiSommeNous"id="QuiSommeNous">
+    <h1>Qui somme nous</h1>
+    
+    <div
+      style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+      class="swiper nous"
+    >
+      <div
+        class="parallax-bg"
+        style="
+          background-image: url(image/nous.jpg);
+        "
+        data-swiper-parallax="-23%"
+      ></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">Nous sommes </div>
+          <div class="subtitle" data-swiper-parallax="-200">share</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+                Share is a review platform open to everyone.
+                Share your experiences to help others
+                to make better decisions and enable.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">creation date</div>
+          <div class="subtitle" data-swiper-parallax="-200">the goal</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+                Share was founded in 2022 with the aim of becoming a universal 
+                symbol of trust. We bring businesses closer to consumers
+                 to promote trust and drive collaboration. Our online
+                  platform is open, transparent and free for everyone.
+                share reviews help consumers buy with confidence
+                 and provide businesses with essential data to improve
+                  the customer experience. The more people use our platform 
+                  and share their opinions, the more valuable information
+                   we provide to businesses, helping them earn the trust 
+                   of consumers around the world.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">Headquarters</div>
+          <div class="subtitle" data-swiper-parallax="-200">Share</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+                Share est à Copenhague, mais nous sommes aussi présents 
+                à Londres, New York, Denver, Vilnius, Berlin, Melbourne et Édimbourg 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper2-pagination"></div>
+    </div>
+</section>
+<section class="QuiNousFaisConfiance">
+    <div class="container-confiance">
+<div class="box-confiance">
+    <img src="image/coca.png" alt="" style="margin-top: 10px;">
+</div>
+<div class="box-confiance">
+    <img src="image/amazon.png" alt="">
+</div>
+<div class="box-confiance">
+    <img src="image/Hunter.png" alt="">
+</div>
+<div class="box-confiance">
+    <img src="image/googl.png" alt="">
+</div>
+</div>
+</section>
+
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="top">
+            <div class="share">
+                <img src="image/logo web.png" alt=""></div>
+                <div class="media-icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#"class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+
+        </div>
+        
+        <div class="box-footer">
+                <ul class="box">
+                    <li class="link_name">company</li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">get started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">service</li>
+                    <li><a href="#">notation restaurant</a></li>
+                    <li><a href="#">notation taxi</a></li>
+                    <li><a href="#">notation hotel</a></li>
+                    <li><a href="#">notation entreprise</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Comunauté</li>
+                    <li><a href="#">avis de confiance</a></li>
+                    <li><a href="#">centre de support</a></li>
+                    <li><a href="#">connexion</a></li>
+                    <li><a href="#">inscription</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">entreprise</li>
+                    <li><a href="#">fonctionnalite</a></li>
+                    <li><a href="#">Partenaires</a></li>
+                    <li><a href="#">Partenaires d'agence</a></li>
+                    <li><a href="#">devenez partenaire</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">company</li>
+                    <li><input type="text" placeholder="entrer your email">
+                    <li><input type="button"value="subscribe">
+
+                </ul>
+            
+        </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom_text">
+                <span class="copyright_text">copyright &#169; 2022 <a href="#">codingLab.</a> All rights reserved </span>
+            <span class="plicyterm">
+                <a href="#">privacy policy</a>
+                <a href="#">term & condition</a>
+            </span>
+            </div>
+        </div>
+</section> <!--js file-->
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+ <script src="script.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        grid: {
+          rows: 2,
+        },
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper1-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".review-slider", {
+     slidesPerView: 3,
+     spaceBetween: 30,
+     slidesPerGroup: 3,
+     loop: true,
+     loopFillGroupWithBlank: true,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script>  
+ <!-- Swiper JS qui somme nous-->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".nous", {
+     speed: 600,
+     parallax: true,
+     pagination: {
+       el: ".swiper2-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script>
+ <script src="bootstrap/js/swiper-bundle.min.js"></script>
+</body>
+</html>

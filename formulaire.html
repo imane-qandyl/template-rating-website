@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <div class="container">
+        <form class="contact_form" action="#" >
+            <h3>get in touch</h3>
+            <input type="text" id="name" placeholder="your Name" required>
+            <input type="email" id="email" placeholder="email id" required>
+            <input type="text" id="phone" placeholder="phone ."required>
+            <textarea name="message" id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">send</button>
+
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+   const form = document.querySelector('.contact_form');
+        function sendEmail(e){
+            e.preventDefault();
+             form ,
+        name=document.querySelector('#name'),
+        email=document.querySelector('#email'),
+        message=document.querySelector('#message');
+        Email.send({
+    SecureToken : "e9759f3a-3bf9-4cb9-bbc2-ace61cf283f4",
+    To : 'imaneqandil@gmail.com',
+    From : email.value,
+    Subject : "contact form",
+    Body : message.value
+}).then(
+  message => alert(message)
+);}
+form.addEventListener('submit', sendEmail());
+
+
+         
+    </script>
+</body>
+</html>
